@@ -1,0 +1,18 @@
+@font-face{
+    font-family: "Bob\'s Burgers";
+    src: url(/fonts/Bobs_Burgers.ttf);
+}
+header {
+    font-family: "Bob\'s Burgers";
+    font-size: 26px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    text-align: center;
+    background-color: white;
+}
+
+header img {
+    position: sticky;
+    padding-top: 20px;
+}
