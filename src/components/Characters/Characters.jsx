@@ -18,14 +18,14 @@ export default function Characters () {
             <h1>Characters List</h1>
             
             <ul className="character-list">
-                {characters.map(character => {
-                    return <li key={character.id}>
+                {characters.map(character => (
+                    <li key={character.id}>
                         {character.name}
                         <div>
                         <img src={character.image} style={{height: 100}}/>
                         </div>
-                        </li>
-                })}
+                    </li>
+                ))}
             </ul>
         </>
     )

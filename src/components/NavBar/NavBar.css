@@ -2,6 +2,7 @@
     font-family: "Bob\'s Burgers";
     src: url(/fonts/Bobs_Burgers.ttf);
 }
+
 header {
     font-family: "Bob\'s Burgers";
     font-size: 26px;
@@ -15,4 +16,8 @@ header {
 header img {
     position: sticky;
     padding-top: 20px;
+}
+
+.navBar {
+    text-decoration: none;
 }

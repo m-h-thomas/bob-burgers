@@ -1,0 +1,8 @@
+@font-face{
+    font-family: "Bob\'s Burgers";
+    src: url(/fonts/Bobs_Burgers.ttf);
+}
+
+h1 {
+    font-family: "Bob\'s Burgers";
+}
