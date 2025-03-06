@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import { Link } from 'react-router-dom'
 import NavBar from '../NavBar/NavBar'
 import './Characters.css'
 
@@ -25,7 +26,9 @@ export default function Characters () {
                         {character.name}
                         </div>
                         <div className='character-image'>
+                        <Link to={`/characters/${character.id}`}> {/* Link to character detail page */}
                         <img src={character.image} style={{widows: 50, height: 100}}/>
+                        </Link>
                         </div>
                     </li>
                 ))}

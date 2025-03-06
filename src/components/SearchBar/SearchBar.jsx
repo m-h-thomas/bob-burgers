@@ -4,8 +4,8 @@ import './SearchBar.css'
 export default function SearchBar () {
     return (
         <>
-            <form className="search-btn"> 
-                <input type="text" placeholder='Search'/> 
+            <form id="search-btn"> 
+                <input id='search-input' type="text" placeholder='Search'/> 
                 <button  type='submit'>SEARCH</button>
             </form>
         </>
