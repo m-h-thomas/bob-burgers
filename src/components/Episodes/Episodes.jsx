@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import NavBar from "../NavBar/NavBar";
 
 export default function Episodes () {
 

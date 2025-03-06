@@ -1,0 +1,21 @@
+.character-list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.character-list li {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    border: 1px solid blue;
+}
+
+.character-name {
+    display: flex;
+}
+
+.character-image {
+    display: flex;
+}
