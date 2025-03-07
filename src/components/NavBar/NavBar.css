@@ -7,7 +7,7 @@ header {
     font-family: "Bob\'s Burgers";
     font-size: 26px;
     display: flex;
-    width: 100%;
+    width: 100;
     justify-content: space-between;
     text-align: center;
     background-color: white;

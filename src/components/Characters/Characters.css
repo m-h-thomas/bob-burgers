@@ -1,21 +1,16 @@
 .character-list {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    width: 100;
     border: 1px solid black;
+    gap: 20px;
 }
 
 .character-list li {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
+    list-style: none;
     border: 1px solid blue;
-}
-
-.character-name {
-    display: flex;
-}
-
-.character-image {
-    display: flex;
+    background-color: white;
+    justify-items: center;
+    align-items: center;
+    width: 100;
 }

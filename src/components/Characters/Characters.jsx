@@ -25,6 +25,7 @@ export default function Characters () {
                         <div className='character-name'>
                         {character.name}
                         </div>
+                        <br></br>
                         <div className='character-image'>
                         <Link to={`/characters/${character.id}`}> {/* Link to character detail page */}
                         <img src={character.image} style={{widows: 50, height: 100}}/>
